@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 header {
   background-image: url('http://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
   background-repeat: none;
@@ -48,4 +54,26 @@ section {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
+}
+
+.btnN{
+  color: grey;
+  font-size: 1em; 
+}
+
+.Team{
+  color: black;
+}
+.naV{
+  padding-top: 14px;
+  color: grey;
+}
+
+.logoB{
+  color: grey;
+  font-size: 1.5em; 
+}
+
+.row{
+  text-align: center;
 }
